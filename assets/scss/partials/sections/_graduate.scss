@@ -1,0 +1,30 @@
+#graduate {
+    margin-top: 50px;
+  
+    .reviews {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+  
+    p {
+      text-align: center;
+    }
+  
+    .img {
+      position: relative;
+      display: flex;
+      justify-content: center;
+  
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+  
+      h5 {
+        margin-top: 25px;
+        margin-left: 30px;
+      }
+    }
+  }

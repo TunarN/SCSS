@@ -1,0 +1,596 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+header-top-adress p {
+  text-align: left;
+  color: #323232;
+  font-family: visby cf, Sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.header-fixed {
+  margin-top: -45px;
+}
+
+.header-buttom-logo img {
+  width: 100px;
+  height: 50px;
+}
+
+.header-top-logo nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.header-top-logo nav ul li {
+  list-style: none;
+  color: black;
+}
+
+.header-top-search-button, .header-buttom-search-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-top-button, .header-buttom-button {
+  background-color: #f9dd00;
+  text-decoration: inherit;
+  font-size: 18px;
+  padding: 5px 10px;
+  /* font-family: visby cf,Sans-serif; */
+}
+
+.header-top-button button, .header-buttom-button button {
+  font-weight: bold;
+}
+
+.header-buttom-search-button i {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-bar-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .nav-bar-responsive {
+    display: none;
+    position: fixed;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header-fixed {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 977px) {
+  #banner .main-banner .logo img {
+    width: 50px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .top-are {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .icon i {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .search-icon i {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .request {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .top-area span {
+    display: none;
+  }
+}
+
+#nav-area {
+  margin-top: -10px;
+  position: relative;
+}
+
+#nav-area .icon {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#nav-area .icon i {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+#nav-area .top-area span {
+  font-size: 12px;
+}
+
+#nav-area .search-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#nav-area .search-icon i {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+#nav-area .request {
+  position: relative;
+}
+
+#nav-area .request button {
+  width: 170px;
+  height: 45px;
+  position: absolute;
+  right: 0px;
+  top: -30px;
+  border: none;
+  background-color: #f9dd00;
+  padding-top: 8px;
+  font-size: 18px;
+}
+
+#img .programing-img {
+  margin-top: 20px;
+}
+
+#banner {
+  margin-top: 14px;
+}
+
+#banner .main-banner {
+  position: relative;
+  background-image: url(../assets/img/Programming_Web.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+#banner .main-banner .logo img {
+  width: 150px;
+  height: 46.29px;
+  margin-top: 5px;
+}
+
+#banner .content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -30px;
+}
+
+#banner .content h5 {
+  color: white;
+  margin-left: 30px;
+}
+
+#banner .content h5 :hover ::after {
+  position: absolute;
+  content: " ";
+  width: 100px;
+  height: 2px;
+  background-color: yellow;
+}
+
+#education {
+  margin-top: 30px;
+}
+
+#education .title {
+  position: relative;
+}
+
+#education .title h1 {
+  font-size: 35px;
+  font-weight: 300px;
+}
+
+#education .title h1::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 90px;
+  content: " ";
+  width: 100px;
+  height: 2px;
+  background-color: brown;
+}
+
+i {
+  font-size: 50px;
+}
+
+#education .education-item h5, #education .education-item-yellow h5, #education .education-item-blue h5, #education .education-item-green h5 {
+  font-size: 20px;
+  font-weight: 30px;
+}
+
+#education .education-item {
+  padding: 30px;
+  border: 1px solid gray;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#education .education-item:hover {
+  background-color: blueviolet;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: white;
+}
+
+#education .education-item-yellow {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 30px;
+  border: 1px solid gray;
+}
+
+#education .education-item-yellow:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: yellow;
+  color: white;
+}
+
+#education .col-6 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#education .education-item-blue {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 30px;
+  border: 1px solid gray;
+}
+
+#education .education-item-blue:hover {
+  background-color: aquamarine;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: white;
+}
+
+#education .education-item-green {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 30px;
+  border: 1px solid gray;
+}
+
+#education .education-item-green:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: green;
+  color: white;
+}
+
+#explain {
+  margin-top: 50px;
+}
+
+#explain .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+#explain .about img {
+  width: 200px;
+  height: 200px;
+}
+
+#explain .about .content {
+  margin-left: 30px;
+}
+
+#explain .why-code {
+  position: relative;
+}
+
+#explain .why-code h1 {
+  font-size: 35px;
+  font-weight: 300px;
+}
+
+#explain .why-code h1:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 90px;
+  content: " ";
+  width: 100px;
+  height: 2px;
+  background-color: brown;
+}
+
+#banner-fixed {
+  margin-top: 100px;
+}
+
+#banner-fixed .banner {
+  height: 415.85px;
+  background-image: url(../assets/img/code-academy-bg.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#banner-fixed .banner h4 {
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#banner-fixed .banner .result {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+#banner-fixed .banner .result .content {
+  margin-left: 100px;
+}
+
+#banner-fixed .banner .result .content h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+#graduate {
+  margin-top: 50px;
+}
+
+#graduate .reviews {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#graduate p {
+  text-align: center;
+}
+
+#graduate .img {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#graduate .img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#graduate .img h5 {
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+#partners {
+  margin-top: 150px;
+}
+
+#partners .our-partners {
+  position: relative;
+  text-align: center;
+}
+
+#partners .our-partners::after {
+  left: 610px;
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: yellow;
+}
+
+#partners .logos {
+  margin-top: 50px;
+}
+
+#partners .logos img {
+  width: 120px;
+  height: 67.5px;
+  margin-left: 80px;
+}
+
+#our-graduate {
+  margin-top: 20px;
+}
+
+#our-graduate .our-graduates-photo img {
+  width: 150px;
+  height: 150px;
+}
+
+#contact {
+  margin-top: 80px;
+  padding-top: 80px;
+  background-color: #F4F5F8;
+}
+
+#contact .content {
+  margin-left: 80px;
+}
+
+#contact .content-2 {
+  margin-left: 40px;
+}
+
+#contact .contact-us input {
+  outline: none;
+  border: none;
+}
+
+#contact .contact-us .full-name {
+  width: 192.5px;
+  height: 59px;
+  padding-left: 10px;
+}
+
+#contact .contact-us .num-ber {
+  width: 296.25px;
+  height: 59px;
+  margin-left: 10px;
+}
+
+#contact .contact-us .mobile {
+  width: 87.75px;
+  height: 59px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+#contact .contact-us .education {
+  width: 400px;
+  height: 59px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+#contact .contact-us button {
+  width: 400px;
+  height: 54px;
+  color: white;
+  margin-top: 20px;
+}
+
+#contact .contact-us input:nth-child(2) {
+  margin-left: 10px;
+}
+
+#top-end .about, #top-end .fields-of-study, #top-end .cooperative {
+  margin-top: 100px;
+}
+
+#location .our-location {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #F4F5F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#end {
+  margin-top: 60px;
+}
+
+#end .icons i {
+  font-size: 20px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+#end .code-academy-logo img {
+  margin-left: 100px;
+  width: 150px;
+  height: 50px;
+}
+
+#contact .contact-us {
+  padding: 30px 0;
+}
+
+.bar-responsive-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bar-responsive-phone i {
+  margin-left: 2 0px;
+}
+
+@media (max-width: 560px) {
+  .foot-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

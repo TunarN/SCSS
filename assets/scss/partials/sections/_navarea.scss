@@ -1,0 +1,88 @@
+#nav-area {
+    margin-top: -10px;
+    position: relative;
+  
+    .icon {
+      position: relative;
+      display: flex;
+      justify-content: center;
+  
+      i {
+        font-size: 20px;
+        margin-left: 20px;
+      }
+    }
+  
+    .top-area span {
+      font-size: 12px;
+    }
+  
+    .search-icon {
+      display: flex;
+  
+      i {
+        font-size: 20px;
+        margin-left: 20px;
+      }
+    }
+  
+    .request {
+      position: relative;
+  
+      button {
+        width: 170px;
+        height: 45px;
+        position: absolute;
+        right: 0px;
+        top: -30px;
+        border: none;
+        background-color: #f9dd00;
+        padding-top: 8px;
+        font-size: 18px;
+      }
+    }
+  }
+  
+  #img .programing-img {
+    margin-top: 20px;
+  }
+  
+  #banner {
+    margin-top: 14px;
+  
+    .main-banner {
+      position: relative;
+      background-image: url(../assets/img/Programming_Web.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 800px;
+  
+      .logo img {
+        width: 150px;
+        height: 46.29px;
+        margin-top: 5px;
+      }
+    }
+  
+    .content {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-top: -30px;
+  
+      h5 {
+        color: white;
+        margin-left: 30px;
+  
+        :hover ::after {
+          position: absolute;
+          content: " ";
+          width: 100px;
+          height: 2px;
+          background-color: yellow;
+        }
+      }
+    }
+  }
+  
+ 

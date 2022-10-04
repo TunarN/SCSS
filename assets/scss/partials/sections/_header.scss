@@ -1,0 +1,107 @@
+
+  header-top-adress p {
+    text-align: left;
+    color: #323232;
+    font-family: visby cf, Sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .header-fixed {
+    margin-top: -45px;
+  }
+  
+  .header-buttom-logo img {
+    width: 100px;
+    height: 50px;
+  }
+  
+  .header-top-logo nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+    li {
+      list-style: none;
+      color: black;
+    }
+  }
+  
+  .header-top-search-button, .header-buttom-search-button {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-top-button, .header-buttom-button {
+    background-color: #f9dd00;
+    text-decoration: inherit;
+    font-size: 18px;
+    padding: 5px 10px;
+  
+    /* font-family: visby cf,Sans-serif; */
+  }
+  
+  .header-top-button button, .header-buttom-button button {
+    font-weight: bold;
+  }
+  
+  .header-buttom-search-button i {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .nav-bar-desktop {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 991px) {
+    .nav-bar-responsive {
+      display: none;
+      position: fixed;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .header-fixed {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 977px) {
+    #banner .main-banner .logo img {
+      width: 50px;
+      height: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .top-are {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .icon i {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .search-icon i {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .request {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .top-area span {
+      display: none;
+    }
+  }

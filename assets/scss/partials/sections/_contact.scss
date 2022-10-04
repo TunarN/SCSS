@@ -1,0 +1,79 @@
+#contact {
+    margin-top: 80px;
+    padding-top: 80px;
+    background-color: #F4F5F8;
+  
+    .content {
+      margin-left: 80px;
+    }
+  
+    .content-2 {
+      margin-left: 40px;
+    }
+  
+    .contact-us {
+      input {
+        outline: none;
+        border: none;
+      }
+  
+      .full-name {
+        width: 192.5px;
+        height: 59px;
+        padding-left: 10px;
+      }
+  
+      .num-ber {
+        width: 296.25px;
+        height: 59px;
+        margin-left: 10px;
+      }
+  
+      .mobile {
+        width: 87.75px;
+        height: 59px;
+        border: none;
+        outline: none;
+        margin-top: 20px;
+        padding-left: 10px;
+      }
+  
+      .education {
+        width: 400px;
+        height: 59px;
+        border: none;
+        outline: none;
+        margin-top: 20px;
+        padding-left: 10px;
+      }
+  
+      button {
+        width: 400px;
+        height: 54px;
+        color: white;
+        margin-top: 20px;
+      }
+  
+      input:nth-child(2) {
+        margin-left: 10px;
+      }
+    }
+  }
+  #contact .contact-us {
+    padding: 30px 0;
+  }
+  
+  .bar-responsive-phone {
+    display: flex;
+  
+    i {
+      margin-left: 2 0px;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    .foot-row {
+      display: flex;
+      gap: 20px;
+    }
+  }

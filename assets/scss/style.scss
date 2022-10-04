@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+@import "./partials/sections/header";
+
+@import "./partials/sections/navarea";
+
+@import "./partials/sections/education";
+
+@import "./partials/sections/explain";
+
+@import "./partials/sections/banner";
+
+@import "./partials/sections/graduate";
+
+@import "./partials/sections/partners";
+
+@import "./partials/sections/ourgraduate";
+
+@import "./partials/sections/contact";
+
+@import "./partials/sections/topend";
+
+@import "./partials/sections/location";
+
+@import "./partials/sections/end";
+  

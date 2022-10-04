@@ -1,0 +1,41 @@
+#banner-fixed {
+    margin-top: 100px;
+  
+    .banner {
+      height: 415.85px;
+      background-image: url(../assets/img/code-academy-bg.jpeg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  
+      h4 {
+        color: white;
+        text-align: center;
+        padding-top: 80px;
+      }
+  
+      .result {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+  
+        .content {
+          margin-left: 100px;
+  
+          h1 {
+            color: white;
+            text-align: center;
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+  
+  h3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+  

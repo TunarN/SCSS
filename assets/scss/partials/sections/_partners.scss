@@ -1,0 +1,28 @@
+#partners {
+    margin-top: 150px;
+  
+    .our-partners {
+      position: relative;
+      text-align: center;
+  
+      &::after {
+        left: 610px;
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 2px;
+        background-color: yellow;
+      }
+    }
+  
+    .logos {
+      margin-top: 50px;
+  
+      img {
+        width: 120px;
+        height: 67.5px;
+        margin-left: 80px;
+      }
+    }
+  }
+  
